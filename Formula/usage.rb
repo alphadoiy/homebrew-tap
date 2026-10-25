@@ -1,18 +1,18 @@
 class Usage < Formula
   desc "Terminal dashboard for AI agent usage, providers, and sessions"
   homepage "https://github.com/alphadoiy/usage"
-  version "0.1.3"
+  version "0.1.4"
 
   depends_on macos: :sequoia
   conflicts_with "usage-local", because: "both install the usage command"
 
   on_arm do
-    url "https://github.com/alphadoiy/usage/releases/download/v0.1.3/usage-v0.1.3-aarch64-apple-darwin.tar.gz"
-    sha256 "6308a0a9896362ad5a2e450be3162e245560ca36ddb788de009850698a927e3d"
+    url "https://github.com/alphadoiy/usage/releases/download/v0.1.4/usage-v0.1.4-aarch64-apple-darwin.tar.gz"
+    sha256 "2a5652f7e6c41bbe079d11c235339ac701f18f86fa781924b0d1ad2eb68ed17c"
   end
   on_intel do
-    url "https://github.com/alphadoiy/usage/releases/download/v0.1.3/usage-v0.1.3-x86_64-apple-darwin.tar.gz"
-    sha256 "8ee77fac4a430580d5b9bbb9044c2cc99b8601b5da14f5ec5be4754e18213dc5"
+    url "https://github.com/alphadoiy/usage/releases/download/v0.1.4/usage-v0.1.4-x86_64-apple-darwin.tar.gz"
+    sha256 "605b65c5b661f56487db1544c8a694d59dc57bbe8dddc843b7079b81793f93a4"
   end
 
   def install
